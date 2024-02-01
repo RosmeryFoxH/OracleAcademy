@@ -1,0 +1,31 @@
+
+let titulo = document.querySelector('h1');
+titulo.innerHTML = 'Hora del Desafío';
+
+function funcionTexto (){
+    alert('El botón fue clicado');
+}
+
+let ciudadIngresada;
+
+function interaccionTexto (){
+        ciudadIngresada = prompt("Ingrese una ciudad de Brasil: ");
+        alert(` Estuve en ${ciudadIngresada} y me acordé de ti`);
+}
+
+function alertaTexto(){
+    alert('Yo amo JS');
+}
+
+
+var primerNumero;
+var segundoNumero;
+var resultadoSuma;
+
+function operacionSuma(){
+
+    primerNumero = prompt('Ingresa el primer número para la suma: ');
+    segundoNumero = prompt('Ingresa el segundo número para la suma: ');
+    resultadoSuma = parseFloat(primerNumero) + parseFloat(segundoNumero);
+    alert(` El resultado de la suma es : ${resultadoSuma}`);
+}
